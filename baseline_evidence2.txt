@@ -1,47 +1,34 @@
 For TC2
 
                FINAL CEO DECISION                 
-As CEO of FinNova Capital, I have synthesized the inputs from Finance, Credit Risk, Compliance, and Marketing. We are moving forward with a **"Margin-Protected Growth"** strategy. We will not pause the pilot; instead, we are pivoting to a high-quality, high-yield portfolio mix to ensure long-term sustainability.
+As CEO of FinNova Capital, I have synthesized the inputs from Finance, Risk, Compliance, and Marketing to finalize the **Pilot Redesign Strategy**. We are shifting from a high-growth, high-risk posture to a **sustainable, risk-adjusted profitability model**.
 
-### **Executive Decision: The "Quality-First" Pivot**
+### **Executive Decision: The "Stability-First" Pilot Pivot**
 
-#### **1. Customer Segment Mix**
-We are rebalancing the portfolio to reduce volatility and prioritize risk-adjusted returns:
-*   **Service SMEs:** 50% (Primary growth engine).
-*   **Retail Shops:** 30% (Reduced exposure).
-*   **Small Manufacturers:** 20% (Stable).
+We are immediately implementing a portfolio rebalancing and tightening of underwriting standards to align with our 5.5% EDR mandate. 
 
-#### **2. Product Terms & Pricing**
-*   **Interest Rates:** 19% for Retail and Manufacturing; 17% for Service SMEs.
-*   **Pricing Floor:** 19% is the non-negotiable floor for high-risk segments; no discounts without Treasury sign-off.
-*   **Loan Characteristics:** Standardized ticket size of INR 4.5 Lakh with mandatory cash-flow verification.
+*   **Customer Segment Mix:** Shift to a defensive posture: **55% Service SMEs** (Anchor), **25% Retail**, and **20% Manufacturing**.
+*   **Product Terms:** Interest rates set at **18.5%** for Retail/Manufacturing and **17%** for Service SMEs. 
+*   **Approval Policy:** Hard rejection for CIBIL <700. Implementation of "Additional Business Evidence" (GST/Bank Statements) for all applicants. Tiered underwriting: Tier 1 (Automated) for >720; Tier 2 (Bank statements) for 650–719; Tier 3 (Manual/Full documentation) for <650.
+*   **Budget Allocation:** Total deployment of INR 24.3 Crore (INR 27 Cr minus 10% Liquidity Buffer). Marketing spend is re-allocated to high-intent channels (SEM/SEO) to prioritize quality over volume, maintaining a strict CPQA ceiling.
+*   **Risk Limits:** 15% safety margin on internal scoring. Automatic "Credit Freeze" triggered if any segment exceeds 85% of its default ceiling.
+*   **Go-To-Market Approach:** Pivot from broad-reach to hyper-targeted, industry-specific lead aggregation to ensure the Approval-to-Funded ratio remains healthy under tighter screening.
+*   **Implementation Sequence:** 
+    *   **Days 1–15:** System integration of enhanced underwriting and automated rejection protocols.
+    *   **Days 16–30:** Full deployment of revised pricing and segment-specific marketing.
+    *   **Ongoing:** Daily monitoring of Approval-to-Disbursement ratios; weekly Treasury audits.
 
-#### **3. Approval Policy & Risk Limits**
-*   **Hard Stop:** Any segment exceeding a 5.5% default rate will trigger an immediate credit freeze.
-*   **Underwriting:** Implementation of the **DRAC (Dynamic Risk-Adjusted Ceiling)** model.
-*   **Verification:** Mandatory API-based income verification and biometric liveness checks for all applicants.
-*   **DTI Caps:** Tiered limits (40%/35%/25%) based on risk profile.
+---
 
-#### **4. Budget Allocation**
-*   **Liquidity Buffer:** 5% (INR 1.35 Cr) ring-fenced immediately.
-*   **Marketing Spend:** 50% Search/Retargeting (Efficiency), 35% Social/Partnerships (Scale), 15% Testing (Innovation).
-*   **CAC Discipline:** Shift focus from "Total Volume" to "Cost per Quality Lead."
+### **Key Performance Indicators (KPIs)**
 
-#### **5. Go-To-Market (GTM) Approach**
-*   **Messaging:** "Credit-First" marketing to pre-filter unqualified leads.
-*   **Funnel Optimization:** Prioritize a 15% increase in landing page conversion to offset the 25% reduction in eligible demand.
+1.  **Portfolio Expected Default Rate (EDR):** Maintain a rolling 30-day EDR at or below **5.4%** (Targeting the 5.5% mandate with a 0.1% safety margin).
+2.  **Net Interest Margin (NIM):** Achieve a sustained **6.5%** NIM through optimized pricing and cost-of-funds discipline.
+3.  **Approval-to-Disbursement Ratio:** Maintain a ratio between **65%–70%**. (If the ratio drops below 60%, it indicates over-tightening; if it exceeds 75%, it indicates a breach of risk controls).
 
-#### **6. Implementation Sequence (30-Day Horizon)**
-*   **Days 1–10:** Update LMS pricing, deploy API-based income verification, and implement "Credit-First" ad copy.
-*   **Days 11–20:** Shift marketing spend to Service SME lookalike audiences and mandate secondary business evidence.
-*   **Days 21–30:** Establish the bi-weekly "Risk-Yield" dashboard and conduct the first portfolio audit.
+---
 
-#### **7. Measurable Outcomes**
-*   **Default Rate:** Maintain an aggregate default rate ≤ 5.5%.
-*   **Net Spread:** Sustain a net spread of 0.8%–1.0% post-provisioning.
-*   **Conversion Efficiency:** Improve landing page conversion rates by 15% to maintain target volumes despite stricter underwriting.
-*   **Portfolio Health:** Achieve a 100% compliance rate with the new "Credit-First" underwriting rules.
+### **Compliance & Operational Mandate**
+All departments are directed to operate within existing headcount and infrastructure. No additional external spend is authorized. The 10% Liquidity Buffer (INR 2.7 Crore) is ring-fenced and non-negotiable. We are prioritizing long-term institutional viability over short-term volume. 
 
-**Final Directive:** This strategy is a mandate. 
-The Finance and Treasury office will monitor the 19% pricing floor, and the Credit Risk team is authorized to enforce the "Hard Stop" on any segment breaching the 5.5% threshold. 
-We are trading volume for viability; execution must be precise.
+**Decision Status:** *Effective Immediately.*

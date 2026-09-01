@@ -1,38 +1,33 @@
 For TC5
 
-As CEO of FinNova Capital, I have synthesized the inputs from our departments to address the current margin squeeze and systemic fraud risks. We are shifting from an aggressive growth posture to a **"Defensive Integrity"** model.
+               FINAL CEO DECISION                 
+As CEO of FinNova Capital, I have synthesized the departmental inputs to address our current portfolio challenges. We are moving from a reactive stance to a **"Controlled Deployment"** model to preserve capital and ensure long-term viability amidst rising costs and fraud risks.
 
-### **Executive Decision: Strategic Realignment (TC5)**
+### **Executive Decision: Portfolio Re-optimization**
 
-#### **1. Customer Segment Mix**
-*   **Retail:** Reduced allocation to 35.5% (INR 9.6 Cr).
-*   **Non-Retail:** Increased allocation to 53.3% (INR 14.4 Cr).
-*   **Liquidity Reserve:** Fixed at 11.2% (INR 3.0 Cr).
+*   **Customer Segment Mix:** 40% Retail (High-Yield/High-Touch) / 60% Non-Retail (Low-Risk/Institutional).
+*   **Product Terms:** Retail pricing set at **19% APR** to offset the 13% Cost of Funds (CoF) and fraud-related leakage. Non-Retail yield target remains at 17.5%.
+*   **Approval Policy:** "Screen-First" mandate. All retail applications must pass automated fraud screening (Device Fingerprinting, Velocity Checks, and Biometric verification). Manual underwriting is mandatory for all high-value or borderline cases.
+*   **Budget Allocation:** Total deployable capital is **INR 21 Cr** (after maintaining the INR 3 Cr liquidity buffer). Retail: INR 8.4 Cr; Non-Retail: INR 12.6 Cr.
+*   **Risk Limits:** Aggregate portfolio default ceiling is **5.5%**. A "Management Buffer" of 15% below this ceiling is established; hitting this buffer triggers an automatic tightening of credit scoring models.
+*   **Go-To-Market Approach:** Shift marketing focus to high-intent, low-funnel channels to ensure lead quality. Implement "Credit-Gate" filtering at the application stage to prevent wasted acquisition costs.
+*   **Implementation Sequence:** 
+    1. Immediate integration of the Fraud Screening API (Priority 1).
+    2. Update internal risk models to reflect 13% CoF and new fraud parameters.
+    3. Rebalance portfolio allocation to the 40/60 split.
+    4. 30-day post-launch audit to verify fraud reduction targets.
+*   **Measurable Outcomes:** Restoration of a 3.6% net interest spread and stabilization of the default rate below the 5.5% threshold.
 
-#### **2. Product Terms & Pricing**
-*   **Interest Rate:** Standardized at the **19% cap** across all new originations to offset the 13% Cost of Funds (CoF).
-*   **Transparency:** Full disclosure of the "Total Cost of Credit" is mandatory. No hidden fees; all origination costs must be clearly presented to ensure TILA compliance.
+---
 
-#### **3. Approval Policy & Risk Limits**
-*   **Fraud Mitigation:** Mandatory integration of the INR 1,200/application screening service. Applications with a Fraud Risk Score <80 are automatically declined; 60–79 range requires Senior Underwriting Committee manual review.
-*   **Credit Hard Stops:** 40% DTI limit; 120% Collateral Coverage Ratio (CCR) for secured loans.
-*   **Concentration Limits:** Max 2% exposure per borrower; max 15% per industry sector.
+### **Key Performance Indicators (KPIs)**
 
-#### **4. Budget Allocation**
-*   **Marketing (GTM):** 50% SEM (High-intent), 30% Strategic Partnerships (Pre-vetted), 20% Retargeting.
-*   **Operational Expense:** The INR 300,000 fraud-screening cost is capitalized and deducted from projected retail interest income.
+1.  **Fraud Incidence Rate:** Must be reduced from 7% to **$\leq$ 2.8%** within 30 days of implementing the "Screen-First" policy.
+2.  **Net Interest Margin (NIM):** Maintain a minimum spread of **3.6%** (Weighted Yield of 18.1% vs. 14.5% break-even cost).
+3.  **Portfolio Default Rate:** Must remain strictly below the **5.5%** ceiling; any breach triggers an immediate freeze on new retail disbursements.
 
-#### **5. Go-To-Market & Implementation Sequence**
-*   **Phase 1 (Days 1–14):** **"Cooling-Off" Period.** Retail lending is locked. IT/Operations must integrate the fraud-screening API and update the decisioning engine to reflect the new underwriting rules.
-*   **Phase 2 (Day 15+):** Controlled relaunch of the retail desk with the new screening protocols.
-*   **Phase 3 (Ongoing):** Weekly audit of the "App-to-Funded" conversion and fraud rates.
+---
 
-#### **6. Measurable Outcomes**
-*   **Default Rate:** Must remain ≤ 5.5% (Targeting ~4.8% weighted).
-*   **Fraud Rate:** Retail fraud must drop from 7% to ≤ 3% within 30 days of launch.
-*   **Liquidity:** The INR 3 Cr reserve is inviolable; if CoF exceeds 13%, we will reduce capital deployment rather than touch the reserve.
-*   **Profitability:** While near-term net margin is projected at -0.3%, this is a bridge to solvency. Success is defined by portfolio integrity and the preservation of capital for future scaling.
+**Compliance Note:** All marketing and underwriting activities must adhere to the "Fair Lending" mandate. Risk-based pricing at 19% must be transparently disclosed to all retail customers, and no predatory collection or rollover practices will be permitted. 
 
-**Compliance Directive:** All departments must adhere to these constraints. Any deviation from the "High-Touch" manual review process or the 14-day cooling-off period will result in immediate desk suspension. We are prioritizing the survival of the firm and the protection of our capital base over short-term volume. 
-
-**Decision Status:** **APPROVED.** Proceed with immediate implementation.
+**This decision is effective immediately.**

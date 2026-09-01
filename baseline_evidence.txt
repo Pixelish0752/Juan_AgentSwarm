@@ -1,44 +1,50 @@
 For TC1
 
                FINAL CEO DECISION                 
-As CEO of FinNova Capital, I have synthesized the inputs from Finance, Credit Risk, Compliance, and Marketing to finalize the execution strategy for our INR 27 Crore pilot. This decision balances aggressive capital deployment with rigorous risk containment.
+As CEO of FinNova Capital, I have synthesized the inputs from our Research, Finance, Credit, and Compliance departments. We are moving forward with the **"Optimized Blend" Pilot Strategy**, prioritizing capital efficiency and risk-adjusted returns.
 
-### **Executive Decision: The "Balanced Growth" Pilot**
+### **Executive Decision: The INR 27 Cr Lending Pilot**
 
-#### **1. Customer Segment Mix & Product Terms**
-*   **Segment Mix:** 300 Service SMEs (66.6% of capital) and 225 Retail Shops (33.3% of capital).
-*   **Product Terms:** 
-    *   **Service SMEs:** 17% APR.
-    *   **Retail Shops:** 18.5% APR.
-    *   **Structure:** Standardized term loans with automated repayment schedules.
-    *   **Compliance:** All terms must include transparent disclosures of APR and fees, with no hidden costs or balloon payments.
+**1. Customer Segment Mix**
+We will focus exclusively on two segments to maximize capital velocity while maintaining a conservative risk profile:
+*   **Service SMEs (70% of capital):** 315 loans at INR 6L average.
+*   **Manufacturers (30% of capital):** 90 loans at INR 9L average.
+*   *Exclusion:* Retail Shops are excluded due to high acquisition costs and unfavorable risk-to-loan-size ratios.
 
-#### **2. Approval Policy & Risk Limits**
-*   **Underwriting:** Mandatory 3-year GST filing history for SMEs. Strict adherence to DTI < 40% for Prime and < 30% for Near-Prime.
-*   **Risk Ceiling:** Portfolio-wide default rate capped at **2.5%** (Credit Risk mandate supersedes the 5% research threshold).
-*   **Concentration:** Hard limit of 65% per segment. No single industry or region shall exceed 15% of the total portfolio.
-*   **Fraud Mitigation:** Mandatory biometric/MFA for all applicants; real-time fraud scoring with manual forensic review for the top 5th percentile.
+**2. Product Terms**
+*   **Interest Rates:** 18% (Service SMEs) / 19% (Manufacturers).
+*   **Loan Structure:** "Cash-Flow First" underwriting. 80% of max limit for initial disbursement, with a "top-up" facility for borrowers demonstrating perfect repayment behavior over 6 months.
 
-#### **3. Budget Allocation & Financial Controls**
-*   **Capital Deployment:** INR 27 Crore (100% utilization).
-*   **Marketing Budget:** INR 15 Lakh (from the INR 42 Lakh allocation).
-*   **Contingency Reserve:** The remaining **INR 27 Lakh** is frozen as a dedicated credit-loss buffer.
-*   **Liquidity:** INR 3 Crore reserve to be held in liquid/overnight funds (target 6.5–7% yield).
+**3. Approval Policy**
+*   **Underwriting:** Prioritize GST filing consistency and digital payment receipts.
+*   **Compliance:** Zero-tolerance for predatory practices. All APRs, fees, and penalty clauses must be disclosed in plain language. No hidden administrative costs.
 
-#### **4. Go-To-Market (GTM) Approach**
-*   **Channel Strategy:** 45% Search (SEM), 30% Affiliate/Partnerships, 15% Social/Retargeting, 10% SEO.
-*   **Efficiency:** Pre-qualification filters will be applied at the ad-click level to prevent acquisition spend on ineligible leads.
+**4. Budget Allocation**
+*   **Total Acquisition Budget:** INR 42 Lakh.
+*   **Initial Deployment:** INR 15.97 Lakh for the 405-loan acquisition.
+*   **Contingency Reserve:** The remaining INR 26 Lakh is frozen as a "Credit Loss Contingency Fund," accessible only upon successful completion of Phase 1 and audit of collections infrastructure.
 
-#### **5. Implementation Sequence**
-*   **Phase 1 (Months 1–3):** Exclusive focus on Service SMEs to establish a "clean" credit foundation. Zero-tolerance policy for DPD > 15.
-*   **Phase 2 (Months 4–9):** Incremental introduction of Retail Shops.
-*   **Ongoing:** Monthly "Portfolio Yield & Liquidity" reporting due by the 5th of each month.
+**5. Risk Limits**
+*   **Portfolio Default Ceiling:** Hard cap at 5%. 
+*   **Concentration Limit:** No segment to exceed 70% of total capital.
+*   **Treasury Guardrail:** If quarterly default rates exceed 4%, an automatic 50-100 bps interest rate hike will be triggered for new originations.
 
-#### **6. Measurable Outcomes**
-*   **Portfolio Health:** Maintain a net yield of 12% (200 bps spread over 10% CoF).
-*   **Operational Efficiency:** 80% automation of repayment reminders to keep collection costs at ≤ 1.5%.
-*   **Performance Trigger:** Any segment exceeding a 2.0% Probability of Default (PD) will trigger an automatic "Credit Freeze" for new originations in that segment.
+**6. Go-To-Market (GTM) Approach**
+*   **Channel Strategy:** Focus on high-intent digital channels (Search/B2B platforms) to ensure low CPA.
+*   **Phased Rollout:** 
+    *   *Phase 1 (Months 1-3):* Deploy 30% of capital to Service SMEs to stress-test collections.
+    *   *Phase 2 (Months 4-9):* Scale to full deployment.
+    *   *Phase 3 (Months 10-12):* Halt new originations; focus on collections and data gathering.
 
-**Conclusion:** This plan ensures we maximize our capital utility while maintaining the highest standard of regulatory compliance and risk discipline. We are moving to execution immediately. 
+### **Key Performance Indicators (KPIs)**
 
-**[APPROVED FOR IMMEDIATE LAUNCH]**
+| Metric | Target |
+| :--- | :--- |
+| **Net Interest Margin (NIM)** | Maintain a floor of 3.0% post-default and post-fixed costs. |
+| **Portfolio Default Rate** | Keep below 3.83% (Weighted Average) with a hard stop at 5.0%. |
+| **Capital Velocity** | 100% deployment of the INR 27 Cr within the 9-month acquisition window. |
+
+**Implementation Sequence:**
+Treasury will immediately establish the escrow accounts. 
+The Risk Committee is directed to finalize the "Cash-Flow First" underwriting manual by EOW for final CEO sign-off. 
+Marketing is authorized to initiate Phase 1 lead generation effective immediately.

@@ -1,44 +1,35 @@
 For TC3
 
                FINAL CEO DECISION                 
-As CEO of FinNova Capital, I have synthesized the inputs from Research, Finance, Credit Risk, Compliance, and Marketing. We are proceeding with the loan launch under a **"Precision-Growth"** mandate. We will prioritize high-intent, trust-based channels to ensure we meet our 160-loan target while maintaining strict credit discipline and regulatory integrity.
+As CEO of FinNova Capital, I have synthesized the departmental inputs into the following executive decision. We are pivoting from a volume-based growth strategy to a **Quality-First Portfolio Model**. 
 
-### **Executive Decision: Loan Launch Strategy**
+We formally reject the 160-loan target as a vanity metric that risks our capital adequacy and credit integrity. Our new objective is the disciplined origination of **110 high-quality, profitable small-business loans.**
 
-#### **1. Customer Segment & Product Terms**
-*   **Segment Mix:** We will prioritize "Prime" and "Near-Prime" applicants. SME lending will be our primary growth engine, requiring 24 months of positive cash flow and mandatory personal guarantees.
-*   **Product Terms:** Standardized, transparent terms with clear APR, origination fee, and repayment schedule disclosures provided at the pre-application stage. No balloon payments or hidden fees.
+### 1. Strategic Parameters
+*   **Customer Segment Mix:** Focus exclusively on "Accountant-Verified" leads (Tier 1 & 2). We will deprioritize broad digital acquisition to avoid low-intent, high-default profiles.
+*   **Product Terms:** Standardized, transparent term loans. No balloon payments. APRs will be risk-adjusted based on the Tier 1–3 credit scoring model.
+*   **Approval Policy:** Strict adherence to the 40% DTI ceiling (35% for Tier 3). Any application flagged as "High Risk" by our fraud engine is subject to immediate, non-appealable decline.
+*   **Budget Allocation (INR 18 Lakh Total):**
+    *   **Referrals:** INR 1.44 Lakh (Maximized for high ROI).
+    *   **Accountants:** INR 11.7 Lakh (Primary channel; acts as the "Trust Anchor" and initial KYC filter).
+    *   **Digital Ads:** INR 4.86 Lakh (Performance-gated; will be cut if default rates exceed 5% in the first 60 days).
+*   **Risk Limits:** 15% liquidity reserve on all deployed capital. No single industry/geography to exceed 10% of the total loan book.
+*   **Go-to-Market Approach:** "Trust-Centric" acquisition. We will launch a Transparency Portal to ensure full disclosure of fees and APRs, reducing bounce rates and ensuring regulatory compliance (UDAAP/TILA).
+*   **Implementation Sequence:**
+    *   **Phase 1 (Month 1):** 30 loans (Testing underwriting efficiency).
+    *   **Phase 2 (Month 2):** 40 loans (Scaling based on performance).
+    *   **Phase 3 (Month 3):** 40 loans (Full deployment).
 
-#### **2. Approval Policy & Risk Limits**
-*   **Underwriting:** Mandatory integration with payroll/banking APIs for income verification. No manual paystubs.
-*   **Risk Guardrails:** 
-    *   **DTI Caps:** 35% (Prime), 25% (Near-Prime).
-    *   **Default Ceiling:** 2.5% for SME, 2.2% for Consumer. 
-    *   **Auto-Pause:** If any segment reaches 90% of its default threshold, the underwriting engine will automatically tighten credit score cutoffs by 20 points.
+### 2. Key Performance Indicators (KPIs)
+To ensure portfolio health and operational success, we will track the following:
 
-#### **3. Budget Allocation & Go-To-Market (GTM)**
-*   **Total Budget:** INR 18 Lakh.
-*   **Channel Priority:**
-    1.  **Referrals (Maxed):** INR 1.44 Lakh (48 loans).
-    2.  **Accountants (High-Intent):** INR 11.7 Lakh (175.5 loans).
-    3.  **Digital Ads (Tactical):** INR 4.86 Lakh (67.5 loans).
-*   **GTM Approach:** "Compliance-as-Marketing." We will use "Soft-Pull" language in all ads to pre-qualify leads, reducing friction and ensuring only credit-worthy applicants enter the funnel.
+1.  **Portfolio Default Rate (PDR):** Must remain below the 2.5% Maximum Portfolio Default Rate (MPDR) threshold.
+2.  **Cost Per Funded Loan (CPFL):** Blended target of <INR 7,000 across all channels, with a specific focus on maintaining the Accountant channel efficiency.
+3.  **Early Warning System (EWS) Trigger Rate:** Percentage of portfolio showing behavioral deterioration (e.g., missed utility payments, credit score drops) must be <2% monthly to avoid immediate pause in originations.
 
-#### **4. Implementation Sequence**
-*   **Phase 1 (Weeks 1-2):** Launch Referral and Accountant partner programs.
-*   **Phase 2 (Weeks 3-8):** Deploy Digital Ad tranches (INR 1.2 Lakh per 14-day cycle).
-*   **Performance Trigger:** If Digital Ad conversion drops below 20%, the remaining budget will be automatically reallocated to Trade Associations (60% conversion rate).
+### 3. Executive Directive
+The Treasury desk is authorized to release funds in tranches. 
+Marketing is to pivot immediately to the Accountant-led strategy. 
+Compliance will perform a weekly audit of the Transparency Portal to ensure we remain above reproach regarding consumer protection standards. 
 
-#### **5. Measurable Outcomes**
-*   **Primary Goal:** 160 funded loans within 8 weeks.
-*   **Efficiency Metric:** Maintain a blended Cost-per-Funded-Loan (CPFL) below INR 5,500.
-*   **Health Metric:** Maintain an Application-to-Approval ratio that signals alignment between marketing targeting and credit risk appetite.
-
-#### **Compliance & Operational Directive**
-The "Clear Explanation" protocol is mandatory. 
-I have earmarked **INR 2 Lakh** from the operational budget to support a "Compliance-as-Marketing" pilot. 
-Any marketing creative that fails the Compliance/UDAAP review will be immediately pulled. 
-
-**Final Verdict:** We have the capital and the strategy to achieve our goals. 
-Finance will oversee the release of funds in tranches to ensure liquidity preservation. 
-**Proceed with immediate execution.**
+**This plan is approved for immediate execution.**
