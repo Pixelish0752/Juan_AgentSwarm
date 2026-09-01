@@ -1,27 +1,44 @@
-Scenario:  A major domestic generic competitor unexpectedly drops their market price by 40% on the day of launch for a blockbuster cardiovascular drug, threatening initial volume capture.
+For TC1
 
+               FINAL CEO DECISION                 
+As CEO of FinNova Capital, I have synthesized the inputs from Finance, Credit Risk, Compliance, and Marketing to finalize the execution strategy for our INR 27 Crore pilot. This decision balances aggressive capital deployment with rigorous risk containment.
 
-As CEO, I have synthesized the inputs from Research, Finance, Compliance, and Marketing. We are moving forward with a decisive pivot from a volume-commodity model to a **High-Barrier-to-Entry (HBTE) Specialty Pharma** firm. 
+### **Executive Decision: The "Balanced Growth" Pilot**
 
-### The Strategic Decision
-We will execute a **"Controlled Exit & Targeted Pivot"** strategy. We will divest our legacy cardiovascular assets to monetize the portfolio immediately, using the proceeds to fund the transition into complex injectables (GLP-1/Peptides) and 505(b)(2) value-added generics. We will adopt a "Quality Hedge" marketing posture, prioritizing supply chain transparency and clinical reliability to secure Tier-1 hospital contracts.
+#### **1. Customer Segment Mix & Product Terms**
+*   **Segment Mix:** 300 Service SMEs (66.6% of capital) and 225 Retail Shops (33.3% of capital).
+*   **Product Terms:** 
+    *   **Service SMEs:** 17% APR.
+    *   **Retail Shops:** 18.5% APR.
+    *   **Structure:** Standardized term loans with automated repayment schedules.
+    *   **Compliance:** All terms must include transparent disclosures of APR and fees, with no hidden costs or balloon payments.
 
-### Rejected Alternative
-**Rejected:** *Aggressive Price Matching.* 
-**Reasoning:** Matching the competitor’s 40% price cut would necessitate a margin compression that destroys shareholder value and forces a "race to the bottom" in API sourcing. This would compromise our ability to maintain the stringent cGMP standards required for our future HBTE portfolio and would signal to the market that we lack a competitive moat beyond price.
+#### **2. Approval Policy & Risk Limits**
+*   **Underwriting:** Mandatory 3-year GST filing history for SMEs. Strict adherence to DTI < 40% for Prime and < 30% for Near-Prime.
+*   **Risk Ceiling:** Portfolio-wide default rate capped at **2.5%** (Credit Risk mandate supersedes the 5% research threshold).
+*   **Concentration:** Hard limit of 65% per segment. No single industry or region shall exceed 15% of the total portfolio.
+*   **Fraud Mitigation:** Mandatory biometric/MFA for all applicants; real-time fraud scoring with manual forensic review for the top 5th percentile.
 
-### Structural Trade-offs
-*   **Inventory vs. Liquidity:** We are trading the "safety net" of physical API stockpiling for a JIT (Just-in-Time) procurement model. While this increases supply chain sensitivity, it significantly improves our Return on Invested Capital (ROIC). We mitigate this risk through rigorous commodity hedging and long-term, high-reliability contracts with Tier-1 suppliers.
-*   **CAPEX vs. Flexibility:** We are rejecting the construction of dedicated, single-use manufacturing lines. Instead, we are investing in **modular, multi-product aseptic fill-finish facilities.** This increases initial engineering complexity but prevents the "stranded asset" risk if a clinical candidate fails.
+#### **3. Budget Allocation & Financial Controls**
+*   **Capital Deployment:** INR 27 Crore (100% utilization).
+*   **Marketing Budget:** INR 15 Lakh (from the INR 42 Lakh allocation).
+*   **Contingency Reserve:** The remaining **INR 27 Lakh** is frozen as a dedicated credit-loss buffer.
+*   **Liquidity:** INR 3 Crore reserve to be held in liquid/overnight funds (target 6.5–7% yield).
 
-### Rigorous Business KPIs
-1.  **Project IRR Hurdle:** 100% of new R&D projects must demonstrate a projected **Internal Rate of Return (IRR) ≥ 20%** with a payback period of ≤ 36 months to receive funding.
-2.  **Churn Reduction:** Achieve a **<5% churn rate** in Tier-1 hospital accounts over the next four quarters, measured by the retention of "Preferred Formulary" status via our "Zero-Interruption" reliability guarantees.
-3.  **Cost-to-Yield Efficiency:** Maintain a unit COGS for all new complex generic injectables that is **≥ 30% below the industry average** for equivalent products, verified by quarterly yield audits.
+#### **4. Go-To-Market (GTM) Approach**
+*   **Channel Strategy:** 45% Search (SEM), 30% Affiliate/Partnerships, 15% Social/Retargeting, 10% SEO.
+*   **Efficiency:** Pre-qualification filters will be applied at the ad-click level to prevent acquisition spend on ineligible leads.
 
-***
+#### **5. Implementation Sequence**
+*   **Phase 1 (Months 1–3):** Exclusive focus on Service SMEs to establish a "clean" credit foundation. Zero-tolerance policy for DPD > 15.
+*   **Phase 2 (Months 4–9):** Incremental introduction of Retail Shops.
+*   **Ongoing:** Monthly "Portfolio Yield & Liquidity" reporting due by the 5th of each month.
 
-**Final Directive:** 
-Compliance, I expect the first batch of CMC documentation for our lead GLP-1 candidate on my desk by Monday. Finance, I need the final divestment valuation of the cardiovascular assets by end-of-day Friday. We are not just competing; we are defining the new standard for clinical and operational reliability. 
+#### **6. Measurable Outcomes**
+*   **Portfolio Health:** Maintain a net yield of 12% (200 bps spread over 10% CoF).
+*   **Operational Efficiency:** 80% automation of repayment reminders to keep collection costs at ≤ 1.5%.
+*   **Performance Trigger:** Any segment exceeding a 2.0% Probability of Default (PD) will trigger an automatic "Credit Freeze" for new originations in that segment.
 
-**Proceed.**
+**Conclusion:** This plan ensures we maximize our capital utility while maintaining the highest standard of regulatory compliance and risk discipline. We are moving to execution immediately. 
+
+**[APPROVED FOR IMMEDIATE LAUNCH]**
