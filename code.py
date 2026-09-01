@@ -62,14 +62,14 @@ def invoke_with_key_switching(state: BoardroomState, prompt: str) -> str:
 
 def business_research_agent(state: BoardroomState):
     time.sleep(2) 
-    prompt = f"""You are the Business Research Agent for FinNova Capital, an Indian digital lending company serving registered small businesses[cite: 4]. 
+    prompt = f"""You are the Business Research Agent for FinNova Capital, an Indian digital lending company serving registered small businesses. 
     Analyze the following scenario, brief, or problem description in detail, regardless of its format:
     
     "{state['business_brief']}"
     
     Instructions:
     - Extract and evaluate all market segments, customer types, demand figures, acquisition metrics, and contextual background provided in the text.
-    - Identify core opportunities, structural bottlenecks, and operational challenges without focusing solely on short-term revenue[cite: 4]."""
+    - Identify core opportunities, structural bottlenecks, and operational challenges without focusing solely on short-term revenue."""
     res = invoke_with_key_switching(state, prompt)
     return {"research_findings": res}
 
@@ -89,7 +89,7 @@ def credit_risk_agent(state: BoardroomState):
     
     Instructions:
     - Analyze expected credit losses, portfolio default thresholds, segment-specific default rates, fraud risks, and verification requirements specified in the scenario text.
-    - Formulate underwriting rules and risk limits that keep defaults strictly at or below mandated ceilings[cite: 4]."""
+    - Formulate underwriting rules and risk limits that keep defaults strictly at or below mandated ceilings."""
     res = invoke_with_key_switching(state, prompt)
     return {"credit_risk_recommendation": res}
 
@@ -98,7 +98,7 @@ def compliance_agent(state: BoardroomState):
     prompt = f"""You are the Compliance and Customer Protection Agent for FinNova Capital. Review the lending plans and risk thresholds.
     
     Instructions:
-    - Ensure fair customer treatment, transparent pricing disclosure, adherence to interest rate caps or regulatory constraints mentioned in the scenario, and strict protection against predatory terms[cite: 4].
+    - Ensure fair customer treatment, transparent pricing disclosure, adherence to interest rate caps or regulatory constraints mentioned in the scenario, and strict protection against predatory terms.
     - Veto any approach that violates customer protection rules or legal bounds."""
     res = invoke_with_key_switching(state, prompt)
     return {"compliance_recommendation": res}
@@ -108,8 +108,8 @@ def marketing_agent(state: BoardroomState):
     prompt = f"""You are the Marketing and Sales Agent for FinNova Capital. Review financial and credit constraints.
     
     Instructions:
-    - Evaluate acquisition channels, marketing budgets, cost per qualified application, conversion rates, and target volumes outlined in the scenario text[cite: 4].
-    - Propose optimal go-to-market and channel allocation strategies that respect all constraints[cite: 4]."""
+    - Evaluate acquisition channels, marketing budgets, cost per qualified application, conversion rates, and target volumes outlined in the scenario text.
+    - Propose optimal go-to-market and channel allocation strategies that respect all constraints."""
     res = invoke_with_key_switching(state, prompt)
     return {"marketing_recommendation": res}
 
@@ -118,8 +118,9 @@ def ceo_agent(state: BoardroomState):
     prompt = f"""You are the CEO Agent for FinNova Capital. Synthesize all department inputs into a definitive executive decision addressing the core decision question in the text.
     
     Instructions:
-    - Balance sustainable growth, affordability, expected credit losses, liquidity, operational capacity, fair customer treatment, and compliance[cite: 4].
-    - Your final decision MUST explicitly specify: customer segment mix, product terms, approval policy, budget allocation, risk limits, go-to-market approach, implementation sequence, and measurable outcomes[cite: 4].
+    - Balance sustainable growth, affordability, expected credit losses, liquidity, operational capacity, fair customer treatment, and compliance.
+    - Your final decision MUST explicitly specify: customer segment mix, product terms, approval policy, budget allocation, risk limits, go-to-market approach, implementation sequence, and measurable outcomes.
+    - You MUST include a distinct section explicitly titled **Key Performance Indicators (KPIs)** containing at least 3 rigorous, quantifiable business metrics.
     
     Data Inputs:
     - Research: {state.get('research_findings')} 
@@ -175,9 +176,8 @@ finnova_swarm = workflow.compile()
 if __name__ == "__main__":
     print("     FINNOVA CAPITAL BOARDROOM     ")
     
-    print("\nPase any lending scenario, case study, or problem description below (press Enter, then Ctrl+Z / Ctrl+D and Enter when finished, or paste single block):")
+    print("\nPaste any lending scenario, case study, or problem description below (press Enter, then Ctrl+Z / Ctrl+D and Enter when finished):")
     
-    # Read multi-line or single-line input dynamically
     lines = []
     try:
         while True:
