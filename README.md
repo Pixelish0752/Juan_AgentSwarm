@@ -1,3 +1,5 @@
+# Team name : Juan
+# Member(s) : Abhrodeep Ghosh (25BAI1616)
 # Agentic Swarm: The AI Boardroom (Generic Pharma Engine)
 
 ## Solution Summary
