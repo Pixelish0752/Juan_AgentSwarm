@@ -1,0 +1,48 @@
+For TC4
+
+               FINAL CEO DECISION                 
+As CEO of FinNova Capital, I have synthesized the inputs from our departments to finalize our operational and strategic roadmap. We will proceed with the **"Hybrid-Automation" Model**, prioritizing infrastructure over headcount to ensure long-term scalability and financial discipline.
+
+### **Executive Decision: The FinNova Growth & Compliance Framework**
+
+#### **1. Customer Segment Mix**
+*   **Primary Focus:** Established SMEs with proven cash flow.
+*   **Targeting:** Shift marketing messaging from "Fast Cash" to "Growth Capital for Established Businesses" to self-select for higher-quality, lower-risk applicants.
+
+#### **2. Product Terms**
+*   **Structure:** Standardized B2B lending products.
+*   **Transparency:** All APRs, origination fees, and repayment schedules must be presented in plain language at the point of application.
+*   **Eligibility:** DTI $\le 36\%$ (General) / $\le 30\%$ (High-Growth); LTV $\le 80\%$ for secured products.
+
+#### **3. Approval Policy**
+*   **Verification:** Mandatory API-based automated income verification for all loans >$10,000.
+*   **Manual Review:** Triggered only for the 40% of applications identified as "edge cases" or where stated/verified income variance exceeds 10%.
+*   **Fraud:** Multi-factor identity verification (biometric + device fingerprinting) is mandatory for all new accounts.
+
+#### **4. Budget Allocation**
+*   **Total Budget:** INR 15 Lakh (3-month window).
+*   **CAPEX:** INR 8 Lakh allocated to automated verification integration.
+*   **Contingency:** INR 7 Lakh held in a high-liquidity reserve for licensing or unforeseen technical hurdles.
+*   **Hiring:** **Freeze.** No temporary staff will be hired.
+
+#### **5. Risk Limits**
+*   **Default Ceiling:** Strictly $\le 4\%$ per annum.
+*   **Portfolio Controls:** 40% Retail/Consumer, 35% SME/Commercial, 25% High-Growth/Tech.
+*   **Trigger:** If aggregate defaults exceed 3.5%, the system will automatically trigger a "Tightening Phase" (increasing minimum credit score requirements by 20 points).
+
+#### **6. Go-To-Market (GTM) Approach**
+*   **Tiered Intent Strategy:** 50% SEM (High Intent), 20% Retargeting, 20% Affiliate/Partners, 10% Content/Social.
+*   **Lead Quality:** Implement a 3-question eligibility screener on landing pages to filter out unqualified leads before they enter the funnel.
+
+#### **7. Implementation Sequence**
+*   **Weeks 1–2:** Integration of automated verification software; training of existing 8 reviewers on the new system.
+*   **Weeks 3–12:** Full deployment of the "Hybrid-Automation" model. Utilize surplus manual capacity to implement a "Fast-Track" queue for high-value/repeat borrowers.
+
+#### **8. Measurable Outcomes**
+*   **Operational:** Maintain a median approval time of $\le 48$ hours.
+*   **Compliance:** Keep customer complaint rates below 2%.
+*   **Financial:** Achieve a downward trend in Cost-per-Approval by Month 3.
+*   **Risk:** Maintain portfolio default rate $\le 4\%$ and ensure fraud losses remain within the 0.5% allocated buffer.
+
+**Final Directive:** This strategy preserves our liquidity, satisfies our compliance mandate, and optimizes our operational throughput without increasing fixed costs. 
+All department heads are to align their KPIs with these parameters effective immediately.

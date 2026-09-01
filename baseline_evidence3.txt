@@ -1,0 +1,44 @@
+For TC3
+
+               FINAL CEO DECISION                 
+As CEO of FinNova Capital, I have synthesized the inputs from Research, Finance, Credit Risk, Compliance, and Marketing. We are proceeding with the loan launch under a **"Precision-Growth"** mandate. We will prioritize high-intent, trust-based channels to ensure we meet our 160-loan target while maintaining strict credit discipline and regulatory integrity.
+
+### **Executive Decision: Loan Launch Strategy**
+
+#### **1. Customer Segment & Product Terms**
+*   **Segment Mix:** We will prioritize "Prime" and "Near-Prime" applicants. SME lending will be our primary growth engine, requiring 24 months of positive cash flow and mandatory personal guarantees.
+*   **Product Terms:** Standardized, transparent terms with clear APR, origination fee, and repayment schedule disclosures provided at the pre-application stage. No balloon payments or hidden fees.
+
+#### **2. Approval Policy & Risk Limits**
+*   **Underwriting:** Mandatory integration with payroll/banking APIs for income verification. No manual paystubs.
+*   **Risk Guardrails:** 
+    *   **DTI Caps:** 35% (Prime), 25% (Near-Prime).
+    *   **Default Ceiling:** 2.5% for SME, 2.2% for Consumer. 
+    *   **Auto-Pause:** If any segment reaches 90% of its default threshold, the underwriting engine will automatically tighten credit score cutoffs by 20 points.
+
+#### **3. Budget Allocation & Go-To-Market (GTM)**
+*   **Total Budget:** INR 18 Lakh.
+*   **Channel Priority:**
+    1.  **Referrals (Maxed):** INR 1.44 Lakh (48 loans).
+    2.  **Accountants (High-Intent):** INR 11.7 Lakh (175.5 loans).
+    3.  **Digital Ads (Tactical):** INR 4.86 Lakh (67.5 loans).
+*   **GTM Approach:** "Compliance-as-Marketing." We will use "Soft-Pull" language in all ads to pre-qualify leads, reducing friction and ensuring only credit-worthy applicants enter the funnel.
+
+#### **4. Implementation Sequence**
+*   **Phase 1 (Weeks 1-2):** Launch Referral and Accountant partner programs.
+*   **Phase 2 (Weeks 3-8):** Deploy Digital Ad tranches (INR 1.2 Lakh per 14-day cycle).
+*   **Performance Trigger:** If Digital Ad conversion drops below 20%, the remaining budget will be automatically reallocated to Trade Associations (60% conversion rate).
+
+#### **5. Measurable Outcomes**
+*   **Primary Goal:** 160 funded loans within 8 weeks.
+*   **Efficiency Metric:** Maintain a blended Cost-per-Funded-Loan (CPFL) below INR 5,500.
+*   **Health Metric:** Maintain an Application-to-Approval ratio that signals alignment between marketing targeting and credit risk appetite.
+
+#### **Compliance & Operational Directive**
+The "Clear Explanation" protocol is mandatory. 
+I have earmarked **INR 2 Lakh** from the operational budget to support a "Compliance-as-Marketing" pilot. 
+Any marketing creative that fails the Compliance/UDAAP review will be immediately pulled. 
+
+**Final Verdict:** We have the capital and the strategy to achieve our goals. 
+Finance will oversee the release of funds in tranches to ensure liquidity preservation. 
+**Proceed with immediate execution.**

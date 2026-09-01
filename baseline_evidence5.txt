@@ -1,0 +1,38 @@
+For TC5
+
+As CEO of FinNova Capital, I have synthesized the inputs from our departments to address the current margin squeeze and systemic fraud risks. We are shifting from an aggressive growth posture to a **"Defensive Integrity"** model.
+
+### **Executive Decision: Strategic Realignment (TC5)**
+
+#### **1. Customer Segment Mix**
+*   **Retail:** Reduced allocation to 35.5% (INR 9.6 Cr).
+*   **Non-Retail:** Increased allocation to 53.3% (INR 14.4 Cr).
+*   **Liquidity Reserve:** Fixed at 11.2% (INR 3.0 Cr).
+
+#### **2. Product Terms & Pricing**
+*   **Interest Rate:** Standardized at the **19% cap** across all new originations to offset the 13% Cost of Funds (CoF).
+*   **Transparency:** Full disclosure of the "Total Cost of Credit" is mandatory. No hidden fees; all origination costs must be clearly presented to ensure TILA compliance.
+
+#### **3. Approval Policy & Risk Limits**
+*   **Fraud Mitigation:** Mandatory integration of the INR 1,200/application screening service. Applications with a Fraud Risk Score <80 are automatically declined; 60–79 range requires Senior Underwriting Committee manual review.
+*   **Credit Hard Stops:** 40% DTI limit; 120% Collateral Coverage Ratio (CCR) for secured loans.
+*   **Concentration Limits:** Max 2% exposure per borrower; max 15% per industry sector.
+
+#### **4. Budget Allocation**
+*   **Marketing (GTM):** 50% SEM (High-intent), 30% Strategic Partnerships (Pre-vetted), 20% Retargeting.
+*   **Operational Expense:** The INR 300,000 fraud-screening cost is capitalized and deducted from projected retail interest income.
+
+#### **5. Go-To-Market & Implementation Sequence**
+*   **Phase 1 (Days 1–14):** **"Cooling-Off" Period.** Retail lending is locked. IT/Operations must integrate the fraud-screening API and update the decisioning engine to reflect the new underwriting rules.
+*   **Phase 2 (Day 15+):** Controlled relaunch of the retail desk with the new screening protocols.
+*   **Phase 3 (Ongoing):** Weekly audit of the "App-to-Funded" conversion and fraud rates.
+
+#### **6. Measurable Outcomes**
+*   **Default Rate:** Must remain ≤ 5.5% (Targeting ~4.8% weighted).
+*   **Fraud Rate:** Retail fraud must drop from 7% to ≤ 3% within 30 days of launch.
+*   **Liquidity:** The INR 3 Cr reserve is inviolable; if CoF exceeds 13%, we will reduce capital deployment rather than touch the reserve.
+*   **Profitability:** While near-term net margin is projected at -0.3%, this is a bridge to solvency. Success is defined by portfolio integrity and the preservation of capital for future scaling.
+
+**Compliance Directive:** All departments must adhere to these constraints. Any deviation from the "High-Touch" manual review process or the 14-day cooling-off period will result in immediate desk suspension. We are prioritizing the survival of the firm and the protection of our capital base over short-term volume. 
+
+**Decision Status:** **APPROVED.** Proceed with immediate implementation.
