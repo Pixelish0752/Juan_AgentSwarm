@@ -65,7 +65,6 @@ GOOGLE_API_KEY2="your_secondary_gemini_api_key"
 
 
 
-(Note: Never commit your actual `.env` or `api_key.env` files to version control.)
 
 ### 3. Run the Application
 
