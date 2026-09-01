@@ -19,11 +19,12 @@ api_keys = [k for k in api_keys if k]
 if not api_keys:
     raise ValueError("CRITICAL: No valid Gemini API keys found in api_key.env!")
 
-# 2. Define the Shared Boardroom State
+# 2. Define the Shared Boardroom State for FinNova Capital
 class BoardroomState(TypedDict):
     business_brief: str
     research_findings: str
     finance_recommendation: str
+    credit_risk_recommendation: str
     compliance_recommendation: str
     marketing_recommendation: str
     ceo_decision: str
@@ -57,67 +58,75 @@ def invoke_with_key_switching(state: BoardroomState, prompt: str) -> str:
             
     return "API Failure: All available Gemini API keys exhausted."
 
-# 3. Granular, Morally Grounded Department Agents
+# 3. Dynamic, Universal FinNova Capital Department Agents
 
 def business_research_agent(state: BoardroomState):
     time.sleep(2) 
-    prompt = f"""You are the Head of Business Research for a generic pharma and medical device company. 
-    Analyze this brief: {state['business_brief']}
+    prompt = f"""You are the Business Research Agent for FinNova Capital, an Indian digital lending company serving registered small businesses[cite: 4]. 
+    Analyze the following scenario, brief, or problem description in detail, regardless of its format:
+    
+    "{state['business_brief']}"
     
     Instructions:
-    - Actively hunt for newer, better, and highly lucrative market opportunities (e.g., niche complex generics, specialized drug delivery mechanisms, or underserved medical device categories).
-    - Analyze specific patent cliffs, API sourcing landscapes, and competitor vulnerabilities.
-    - Think out-of-the-box regarding market gaps, but prioritize long-term asset value and public reliability."""
+    - Extract and evaluate all market segments, customer types, demand figures, acquisition metrics, and contextual background provided in the text.
+    - Identify core opportunities, structural bottlenecks, and operational challenges without focusing solely on short-term revenue[cite: 4]."""
     res = invoke_with_key_switching(state, prompt)
     return {"research_findings": res}
 
 def finance_agent(state: BoardroomState):
     time.sleep(2)
-    prompt = f"""You are the CFO. Review Research findings: {state.get('research_findings', 'N/A')}. 
+    prompt = f"""You are the Finance and Treasury Agent for FinNova Capital. Review the Business Research findings: {state.get('research_findings', 'N/A')}. 
     
     Instructions:
-    - Obsess over keeping expenditure, CAPEX, working capital, and unit COGS aggressively low.
-    - Do NOT impede the company's growth or compromise the medical product's core efficacy.
-    - Conduct tight cost-benefit evaluations of specific medicine formulations or device manufacturing lines.
-    - If Marketing suggests an expensive, high-risk strategy, aggressively challenge and push back with hard economic metrics."""
+    - Analyze all capital allocation limits, available funds, cost of funds, servicing/collection costs, setup budgets, and liquidity reserve requirements mentioned in the text.
+    - Enforce strict unit economics and cost discipline across all proposals."""
     res = invoke_with_key_switching(state, prompt)
     return {"finance_recommendation": res}
 
-def compliance_agent(state: BoardroomState):
+def credit_risk_agent(state: BoardroomState):
     time.sleep(2)
-    prompt = f"""You are the Head of Compliance, Quality Control, and Regulatory Affairs. Review research and financial plans.
+    prompt = f"""You are the Credit Risk Agent for FinNova Capital. Review finance and research recommendations.
     
     Instructions:
-    - Maintain a strict, uncompromising stance on regulatory hurdles (e.g., FDA/CDSCO filings, ANDA approvals), bioequivalence risks, impurity profiles, and medical device ISO quality standards.
-    - Ensure patient safety and product integrity take absolute precedence over speed. 
-    - Actively veto any shortcut that threatens public safety or corporate moral standing and reliability."""
+    - Analyze expected credit losses, portfolio default thresholds, segment-specific default rates, fraud risks, and verification requirements specified in the scenario text.
+    - Formulate underwriting rules and risk limits that keep defaults strictly at or below mandated ceilings[cite: 4]."""
+    res = invoke_with_key_switching(state, prompt)
+    return {"credit_risk_recommendation": res}
+
+def compliance_agent(state: BoardroomState):
+    time.sleep(2)
+    prompt = f"""You are the Compliance and Customer Protection Agent for FinNova Capital. Review the lending plans and risk thresholds.
+    
+    Instructions:
+    - Ensure fair customer treatment, transparent pricing disclosure, adherence to interest rate caps or regulatory constraints mentioned in the scenario, and strict protection against predatory terms[cite: 4].
+    - Veto any approach that violates customer protection rules or legal bounds."""
     res = invoke_with_key_switching(state, prompt)
     return {"compliance_recommendation": res}
 
 def marketing_agent(state: BoardroomState):
     time.sleep(2)
-    prompt = f"""You are the CMO. Review Finance constraints: {state.get('finance_recommendation', 'N/A')}. 
+    prompt = f"""You are the Marketing and Sales Agent for FinNova Capital. Review financial and credit constraints.
     
     Instructions:
-    - Be highly creative and granular in designing Go-To-Market (GTM) strategies, digital physician engagement, tiered wholesale rebates, and medical device channel distribution.
-    - Propose bold, out-of-the-box commercial campaigns while strictly staying within moral and ethical boundaries. 
-    - Protect our brand reputation for unblemished reliability and patient trust above all short-term gains."""
+    - Evaluate acquisition channels, marketing budgets, cost per qualified application, conversion rates, and target volumes outlined in the scenario text[cite: 4].
+    - Propose optimal go-to-market and channel allocation strategies that respect all constraints[cite: 4]."""
     res = invoke_with_key_switching(state, prompt)
     return {"marketing_recommendation": res}
 
 def ceo_agent(state: BoardroomState):
     time.sleep(2)
-    prompt = f"""You are the CEO. Synthesize all department inputs with a deep focus on economic technicalities, numerical precision, and specific medicine/device formulations.
+    prompt = f"""You are the CEO Agent for FinNova Capital. Synthesize all department inputs into a definitive executive decision addressing the core decision question in the text.
     
     Instructions:
-    - Balance bold, out-of-the-box commercial strategies with an unyielding commitment to corporate morality, product reliability, and patient safety.
-    - Clearly state the final decision, document at least one rejected alternative with reasons, outline structural trade-offs, and provide 3 rigorous, measurable business KPIs.
+    - Balance sustainable growth, affordability, expected credit losses, liquidity, operational capacity, fair customer treatment, and compliance[cite: 4].
+    - Your final decision MUST explicitly specify: customer segment mix, product terms, approval policy, budget allocation, risk limits, go-to-market approach, implementation sequence, and measurable outcomes[cite: 4].
     
     Data Inputs:
     - Research: {state.get('research_findings')} 
-    - Finance: {state.get('finance_recommendation')} 
-    - Compliance: {state.get('compliance_recommendation')} 
-    - Marketing: {state.get('marketing_recommendation')}"""
+    - Finance & Treasury: {state.get('finance_recommendation')} 
+    - Credit Risk: {state.get('credit_risk_recommendation')} 
+    - Compliance & Customer Protection: {state.get('compliance_recommendation')} 
+    - Marketing & Sales: {state.get('marketing_recommendation')}"""
     res = invoke_with_key_switching(state, prompt)
     return {"ceo_decision": res}
 
@@ -132,40 +141,56 @@ def increment_cycle(state: BoardroomState):
     current = state.get("review_cycle_count", 0)
     return {"review_cycle_count": current + 1}
 
-# 5. Wire the Graph
+# 5. Wire the Graph with Mandatory Lending Agents
 workflow = StateGraph(BoardroomState)
 
 workflow.add_node("Business_Research", business_research_agent)
-workflow.add_node("Finance", finance_agent)
-workflow.add_node("Compliance", compliance_agent)
-workflow.add_node("Marketing", marketing_agent)
+workflow.add_node("Finance_Treasury", finance_agent)
+workflow.add_node("Credit_Risk", credit_risk_agent)
+workflow.add_node("Compliance_Protection", compliance_agent)
+workflow.add_node("Marketing_Sales", marketing_agent)
 workflow.add_node("Increment_Cycle", increment_cycle)
 workflow.add_node("CEO", ceo_agent)
 
 workflow.set_entry_point("Business_Research")
-workflow.add_edge("Business_Research", "Finance")
-workflow.add_edge("Finance", "Compliance")
-workflow.add_edge("Compliance", "Marketing")
-workflow.add_edge("Marketing", "Increment_Cycle")
+workflow.add_edge("Business_Research", "Finance_Treasury")
+workflow.add_edge("Finance_Treasury", "Credit_Risk")
+workflow.add_edge("Credit_Risk", "Compliance_Protection")
+workflow.add_edge("Compliance_Protection", "Marketing_Sales")
+workflow.add_edge("Marketing_Sales", "Increment_Cycle")
 
 workflow.add_conditional_edges(
     "Increment_Cycle", 
     check_debate_status,
     {
-        "continue_debate": "Finance", 
+        "continue_debate": "Finance_Treasury", 
         "decide": "CEO"               
     }
 )
 
 workflow.add_edge("CEO", END)
-pharma_swarm = workflow.compile()
+finnova_swarm = workflow.compile()
 
-# 6. Dynamic Execution
+# 6. Dynamic Execution for Any Format/Scenario
 if __name__ == "__main__":
-    print(" PHARMA BOARDROOM ENGINE ")
+    print("     FINNOVA CAPITAL BOARDROOM     ")
     
-    user_brief = input("\nEnter your custom pharmaceutical business scenario or surprise event:\n> ")
+    print("\nPase any lending scenario, case study, or problem description below (press Enter, then Ctrl+Z / Ctrl+D and Enter when finished, or paste single block):")
     
+    # Read multi-line or single-line input dynamically
+    lines = []
+    try:
+        while True:
+            line = input()
+            lines.append(line)
+    except EOFError:
+        pass
+    
+    user_brief = "\n".join(lines).strip()
+    
+    if not user_brief:
+        user_brief = "Default Baseline: Launch small-business loan pilot with INR 30 crore, INR 60 lakh marketing budget, max 700 loans, cost of funds 10%, servicing cost 1.5%, max default 5%."
+
     initial_state = {
         "business_brief": user_brief,
         "debate_messages": [],
@@ -173,8 +198,8 @@ if __name__ == "__main__":
         "api_key_index": 0
     }
     
-    print("\n[Swarm Initialized] Running granular cross-examination and debate...")
-    final_state = pharma_swarm.invoke(initial_state)
+    print("\n[Swarm Initialized] Analyzing arbitrary case and running cross-department debate...")
+    final_state = finnova_swarm.invoke(initial_state)
     
     print("               FINAL CEO DECISION                 ")
     
