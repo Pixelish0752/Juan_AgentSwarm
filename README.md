@@ -70,7 +70,7 @@ GOOGLE_API_KEY2="your_secondary_gemini_api_key"
 Execute the python script:
 
 ```bash
-python code.py
+code.py
 
 ```
 
