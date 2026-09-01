@@ -141,9 +141,7 @@ pharma_swarm = workflow.compile()
 
 # 7. Dynamic User Input Execution
 if __name__ == "__main__":
-    print("==================================================")
     print("  AGENTIC SWARM: PHARMA BOARDROOM ENGINE (FAILSAFE)")
-    print("==================================================")
     
     user_brief = input("\nEnter your custom pharmaceutical business scenario or surprise event:\n> ")
     
@@ -154,12 +152,10 @@ if __name__ == "__main__":
         "api_key_index": 0
     }
     
-    print("\n[Swarm Initialized] Running department analysis with multi-key fail-safe...")
+    print("\n[Swarm Initialized] Running department analysis...")
     final_state = pharma_swarm.invoke(initial_state)
     
-    print("\n==================================================")
     print("               FINAL CEO DECISION                 ")
-    print("==================================================")
     
     decision_output = final_state["ceo_decision"]
     if isinstance(decision_output, list):
